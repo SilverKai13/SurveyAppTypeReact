@@ -1,0 +1,55 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+h1+p{
+    margin-top: 0;
+}
+
+body {
+    font-family: 'Poppins',sans-serif ;
+    background-color: #05c46b;
+    text-align: center;
+    margin: 0;
+}
+
+form {
+    background-color: #fff ;
+    max-width: 450px;
+    box-shadow: 2px 5px 10px rgba(0,0,0,0.4);
+    padding: 30px 20px;
+    border-radius: 2px;
+    margin: 40px auto;
+}
+
+.form-control{
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-control label{
+    display: block;
+    margin-bottom: 6px;
+}
+
+.form-control input, .form-control select, .form-control textarea{
+    border: 1px solid #777;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 100%;
+}
+
+.form-control input[type="radio"],.form-control input[type="checkbox"]{
+    width:auto;
+    display: inline-block;
+}
